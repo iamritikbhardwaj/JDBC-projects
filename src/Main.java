@@ -4,9 +4,9 @@ import java.io.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://";
-        String userid = "";
-        String password = "";
+        String url = "jdbc:mysql://localhost/3306/employee";
+        String userid = "username";
+        String password = "Password";
         // Query to create table
 //        String q= "create table empData (eID int(20) primary key auto_increment, eName varchar(100) not null, eCity varchar(200))";
         // Insert data into the table
